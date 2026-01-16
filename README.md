@@ -23,3 +23,5 @@ Robot Chasis
 The software is written in Arduino C/C++. Sensor readings are converted into distance values in centimeters and validated to handle unreliable measurements. Motor speeds are controlled using PWM signals with minimum and maximum limits to ensure consistent movement.
 
 The control logic includes timing-based derivative calculation, output limiting to avoid spikes, and a deadband to reduce jitter near the center of the track.
+
+
